@@ -1,5 +1,5 @@
 // Check if a key exists inside a JS obj
-// roles obj
+// roles object
 const roles = { role_name: 'admin'}
 
 // Check if the role_name propery exists then return true or false
