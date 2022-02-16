@@ -8,6 +8,17 @@ If you want to replace all occurrences you need to use a regular expression so t
 
 ```$scope.newString = oldString.replace(/stack/g,"NO");```
 
+### some()
+```
+existCurrPrt(participants, currPrt): any {
+        if (participants.some((prt) => prt.id === currPrt)) {
+            return true;
+        } else {
+            return false;
+        }
+    }
+```
+
 ### Difference between find() and filter()
 
 * filter() </br>
